@@ -1,0 +1,319 @@
+body{
+    position: relative;
+}
+nav{
+    position: absolute;
+    position: fixed;
+}
+nav span{
+    color: #a70a95;
+}
+nav ul li a{
+    color: #a70a95;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #7e1872;
+    transform: scale(110%);
+}
+
+@media (min-width:992px) and (max-width:2000px){
+    nav ul{
+        margin-left: 350px;
+    }
+
+}
+.part0{
+    background-image: url(images/home-1.png);
+    background-size: 100% 100%;
+}
+.part0 .child1{
+    padding: 150px 0px;
+    padding-right: 150px;
+
+}
+.part0 .child1 span{
+    color: #a70a95;
+}
+.part0 .child1 button{
+    width: 30%;
+    border-radius: 20px;
+    background-image: linear-gradient(#7b109f,#a70a95,#c62bb4,#f062e0);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.part0 .child1 button:hover{
+    background-image: linear-gradient(#70138f,#8f0a7f,#af219f,#dd45cb);
+    outline: 2px solid goldenrod;
+}
+.part0 .child2{
+
+
+}
+.part0 .child2 img{
+    height: 100%;
+    width: 90%;
+    transition: .4s;
+}
+.part0 .child2 img:hover{
+    transform: scale(110%);
+}
+.part1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(248, 248, 248);
+}
+.head{
+    text-align: center;
+    color: #a70a95;
+}
+.part1 .card{
+    text-align: center;
+    margin: 10px;
+    transition: .3s;
+}
+.part1 .card:hover{
+    transform: scale(105%);
+}
+.part1 .card img{
+    width: 50%;
+    height: 30%;
+    margin: 5% 25%;
+}
+.part1 .card button{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    background-image: linear-gradient(#7b109f,#a70a95,#c62bb4,#f062e0);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.part1 .card button:hover{
+    background-image: linear-gradient(#70138f,#8f0a7f,#af219f,#dd45cb);
+    outline: 2px solid goldenrod;
+}
+.part1 button:focus{
+    outline: none;
+}
+.part2{
+    padding-top: 50px;
+    background-image: url(images/about-bg.png);
+    background-size: 100% 100%;
+}
+.part2 .child1 img{
+    width: 100%;
+    height: 100%;
+    /* transform: rotate3d(1,1,1,-80deg); */
+}
+.part2 .child2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.part2 .child2 button{
+    width: 30%;
+    border-radius: 20px;
+    background-image: linear-gradient(#7b109f,#a70a95,#c62bb4,#f062e0);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.part2 .child2 button:hover{
+    background-image: linear-gradient(#70138f,#8f0a7f,#af219f,#dd45cb);
+    outline: 2px solid goldenrod;
+}
+.part3{
+    background-image: url(images/subscribe-bg.png);
+    background-size: cover;
+    padding: 50px 0px;
+    position: relative;
+}
+.part3 .h22{
+    color: white;
+    font-family: 'Sigmar One', cursive;
+}
+.part3 p{
+    color: white;
+
+}
+.part3 .btn{
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+.part3 .btn1{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+    outline: 2px solid white;
+    background-color: #be307e;
+    padding-left: 20px;
+}
+.part3 .btn2{
+    position: absolute;
+    border-radius: 20px;
+    left: 74.9%;
+    top: 2.5%;
+    background-color: white;
+    border: none;
+    width: 25%;
+    height: 95%;
+    transition: .5s;
+}
+.part3 .btn2:hover{
+    outline: none;
+    outline: 2px solid goldenrod;
+}
+.part4{
+    padding-top: 50px;
+    background-color: rgb(248, 248, 248);
+}
+.part4 .card{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+.part4 .card .cicon{
+    position: absolute;
+    font-size:50px;
+    color: #a70a95;
+    opacity: .5;
+    left: 80%;
+    top: 2%;
+}
+.part4 .card img{
+    width: 30%;
+    height: 30%;
+    border-radius: 45%;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.part4 .card h6{
+    color: #a70a95;
+}
+
+.part4 .card .icon{
+    color: #a70a95;
+    font-size: 15px;
+}
+.part5{
+    padding-top: 150px;
+    background-color: rgb(248, 248, 248);
+}
+.part5 .card{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+.part5 .card:hover{
+    transform: scale(110%);
+    border-top: 4px solid gold;
+}
+.part5 span{
+    font-size: 30px;
+
+}
+.part5 b{
+    color: #a70a95;
+}
+.part5 .card button{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    background-image: linear-gradient(#7b109f,#a70a95,#c62bb4,#f062e0);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.part5 .card button:hover{
+    background-image: linear-gradient(#70138f,#8f0a7f,#af219f,#dd45cb);
+    outline: 2px solid goldenrod;
+}
+.part5 button:focus{
+    outline: none;
+}
+.part6{
+    padding-top: 150px;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 30px;
+}
+.part6 img{
+    width: 100%;
+    height: 100%;
+
+}
+.part6 .card{
+    padding-left: 10px;
+
+}
+.part6 .card h2{
+    color: #a70a95;
+
+}
+.part6 .card p{
+    border-bottom: 1px solid rgb(175, 175, 175);
+
+}
+.part6 .card button{
+    width: 25%;
+    border-radius: 20px;
+    background-image: linear-gradient(#7b109f,#a70a95,#c62bb4,#f062e0);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.part6 .card button:hover{
+    background-image: linear-gradient(#70138f,#8f0a7f,#af219f,#dd45cb);
+    outline: 2px solid goldenrod;
+}
+.part6 button:focus{
+    outline: none;
+}
+footer{
+    color: white;
+    background-image: url(images/footer-bg.png);
+    background-size: 100% 100%;
+    background-size:cover;
+    padding-top: 100px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li{
+    list-style: none;
+    transition: .3s;
+}
+footer ul li:hover{
+    transform: scale(105%);
+}
+footer .foul{
+    margin-right: 50px;
+}
+footer ul li a:hover{
+    color: rgb(250, 229, 189);
+    text-decoration: none;
+}
+.bg{
+    background-color: rgb(248, 248, 248);
+}
